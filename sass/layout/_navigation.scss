@@ -1,0 +1,14 @@
+.nav--container {
+  ul {
+    li {
+      padding-left: 50px;
+      a {
+        color: #ffffff;
+        &:hover {
+          @include transition-ease;
+          color: $primary-hover-color;
+        }
+      }
+    }
+  }
+}
