@@ -1,14 +1,6 @@
 .container {
-  width: 1200px;
+  width: 100%;
   margin: 0 auto;
-}
-
-.desktop-hidden {
-  display: none;
-}
-
-.mobile-hidden {
-  display: none;
 }
 
 .flex {
@@ -20,6 +12,11 @@
   justify-content: center;
 }
 
+.justify-between {
+  display: flex;
+  justify-content: space-between;
+}
+
 .align-center {
   display: flex;
   align-items: center;
@@ -27,4 +24,25 @@
 
 .text-center {
   text-align: center;
+}
+
+// DESKTOP
+@include desktop {
+  .desktop-hidden {
+    display: none;
+  }
+}
+
+// TABLET
+@include tablet {
+  .tablet-hidden {
+    display: none;
+  }
+}
+
+// MOBILE
+@include mobile {
+  .mobile-hidden {
+    display: none;
+  }
 }
