@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600&display=swap");
 * {
   box-sizing: border-box;
   margin: 0;
@@ -29,4 +30,80 @@ p {
 
 a {
   text-decoration: none;
+}
+
+i {
+  cursor: pointer;
+}
+
+.header--container {
+  background-color: transparent;
+  position: absolute;
+  width: 95%;
+}
+.header--container .header-logo {
+  margin-left: 20px;
+}
+.header--container .header-icons i {
+  padding-right: 15px;
+  color: #ffffff;
+}
+.header--container .header-icons i:hover {
+  transition: 0.3s ease;
+  color: #ff0000;
+}
+
+.nav--container ul li {
+  padding-left: 50px;
+}
+.nav--container ul li a {
+  color: #ffffff;
+}
+.nav--container ul li a:hover {
+  transition: 0.3s ease;
+  color: #ff0000;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+}
+
+.justify-center {
+  display: flex;
+  justify-content: center;
+}
+
+.justify-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+.align-center {
+  display: flex;
+  align-items: center;
+}
+
+.text-center {
+  text-align: center;
+}
+
+@media screen and (min-width: 1024) {
+  .desktop-hidden {
+    display: none;
+  }
+}
+@media screen and (max-width: 991) {
+  .tablet-hidden {
+    display: none;
+  }
+}
+@media screen and (max-width: 767) {
+  .mobile-hidden {
+    display: none;
+  }
 }/*# sourceMappingURL=main.css.map */

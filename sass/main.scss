@@ -1,9 +1,14 @@
 @import './abstracts/variables';
+
 @import './base/reset';
+
 @import './components/buttons';
+
 @import './layout/header';
 @import './layout/footer';
 @import './layout/navigation';
+@import './layout/grid';
+
 @import './pages/home';
 @import './pages/menu';
 @import './pages/order';
