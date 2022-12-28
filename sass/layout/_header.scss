@@ -1,0 +1,30 @@
+.header--container {
+  background-color: transparent;
+  position: absolute;
+  width: 95%;
+
+  .header-logo {
+    margin-left: 20px;
+  }
+
+  .header-icons {
+    i {
+      padding-right: 15px;
+      color: #ffffff;
+
+      &:hover {
+        @include transition-ease;
+        color: $primary-hover-color;
+      }
+    }
+  }
+}
+
+// TABLET
+@include tablet {
+}
+
+// MOBILE
+
+@include mobile {
+}
