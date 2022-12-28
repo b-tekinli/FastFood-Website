@@ -6,16 +6,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home burgers - Fast food</title>
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="./sass/main.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
     <!-- HEDAER -->
-    <header>
-        <div class="container">
-            
+    <header class="container">
+        <div class="header--container justify-between">
+            <div class="header-nav flex">
+                <div class="header-logo">
+                    <figcaption>
+                        <img src="img/header-logo.png">
+                    </figcaption>
+                </div>
+
+                <nav class="nav--container align-center tablet-hidden mobile-hidden">
+                    <ul class="flex">
+                        <li><a href="#">HOME</a></li>
+                        <li><a href="#">PAGES</a></li>
+                        <li><a href="#">OUR OFFER</a></li>
+                        <li><a href="#">GALLERIES</a></li>
+                        <li><a href="#">BLOG</a></li>
+                        <li><a href="#">SHOP</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="header-icons align-center">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-vimeo"></i>
+                <i class="fa fa-search"></i>
+            </div>
         </div>
     </header>
+
+    <main class="container">
+        <img src="./img/home-burgers.jpg">
+    </main>
 </body>
 
 </html>
