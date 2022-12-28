@@ -1,4 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600&display=swap");
+
 $primary-color: #e94102;
+$primary-hover-color: #ff0000;
 $gray-text-color: #c4c4c4;
 
 $font-weights: (
@@ -7,20 +10,30 @@ $font-weights: (
   "bold": 700,
 );
 
+@mixin transition-ease {
+  transition: 0.3s ease;
+}
+
+// -- RESPONSIVE
+
 $mobile: 767;
 $tablet: 991;
-$desktop: 1200;
+$desktop: 1024;
 
-// .media {
-//   @media screen and (min-width: $desktop) {
-    
-//   }
+@mixin desktop {
+  @media screen and (min-width: $desktop) {
+    @content;
+  }
+}
 
-//   @media screen and (min-width: $tablet) {
-    
-//   }
+@mixin tablet {
+  @media screen and (max-width: $tablet) {
+    @content;
+  }
+}
 
-//   @media screen and (min-width: $mobile) {
-
-//   }
-// }
+@mixin mobile {
+  @media screen and (max-width: $mobile) {
+    @content;
+  }
+}
