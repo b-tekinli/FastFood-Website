@@ -85,7 +85,7 @@ i {
   color: #ffffff;
 }
 .header--container .header-icons i:hover {
-  transition: 0.3s ease;
+  transition: 0.5s ease;
   color: #ff0000;
 }
 
@@ -106,7 +106,7 @@ i {
   color: #ffffff;
 }
 .nav--container ul li a:hover {
-  transition: 0.3s ease;
+  transition: 0.5s ease;
   color: #ff0000;
 }
 
@@ -122,6 +122,11 @@ i {
 .justify-center {
   display: flex;
   justify-content: center;
+}
+
+.justify-around {
+  display: flex;
+  justify-content: space-around;
 }
 
 .justify-between {
@@ -154,13 +159,40 @@ i {
   }
 }
 main .home--container img {
-  min-width: 100%;
-  background-size: cover;
+  position: absolute;
+  -o-object-fit: cover;
+     object-fit: cover;
+  z-index: -1;
+}
+main .home--container .home-content {
+  position: absolute;
+  top: 200px;
+}
+main .home--container .home-content .home-content-text .home-top-text {
+  max-width: 200px;
+  margin: 15px 0;
+}
+main .home--container .home-content .home-content-text .home-top-text p {
+  padding: 10px;
+  font-weight: 700;
+  background-color: #fe0000;
+  color: #ffffff;
+}
+main .home--container .home-content .home-content-text h1 {
+  font-size: 5em;
+  width: 800px;
+  color: #ffffff;
 }
 main .home--container .home-content .btn {
-  background-color: #e94102;
+  background-color: #fe0000;
   color: #ffffff;
   border: none;
+}
+main .home--container .home-content .btn:hover {
+  background-color: transparent;
+  border: 2px solid #ff0000;
+  transition: 0.5s ease;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 991px) {

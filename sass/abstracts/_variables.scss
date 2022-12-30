@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600&display=swap");
 
-$primary-color: #e94102;
+$primary-color: #fe0000;
 $primary-hover-color: #ff0000;
 $gray-text-color: #c4c4c4;
 
@@ -11,7 +11,7 @@ $font-weights: (
 );
 
 @mixin transition-ease {
-  transition: 0.3s ease;
+  transition: 0.5s ease;
 }
 
 // -- RESPONSIVE

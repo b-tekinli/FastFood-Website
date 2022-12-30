@@ -1,14 +1,40 @@
 main {
   .home--container {
     img {
-      min-width: 100%;
-      background-size: cover;
+      position: absolute;
+      object-fit: cover;
+      z-index: -1;
     }
     .home-content {
+      position: absolute;
+      top: 200px;
+      .home-content-text {
+        .home-top-text {
+          max-width: 200px;
+          margin: 15px 0;
+          p {
+            padding: 10px;
+            font-weight: 700;
+            background-color: $primary-color;
+            color: #ffffff;
+          }
+        }
+        h1 {
+          font-size: 5em;
+          width: 800px;
+          color: #ffffff;
+        }
+      }
       .btn {
         background-color: $primary-color;
         color: #ffffff;
         border: none;
+        &:hover {
+          background-color: transparent;
+          border: 2px solid $primary-hover-color;
+          @include transition-ease;
+          cursor: pointer;
+        }
       }
     }
   }
