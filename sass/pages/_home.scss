@@ -1,0 +1,38 @@
+main {
+  .home--container {
+    img {
+      min-width: 100%;
+      background-size: cover;
+    }
+    .home-content {
+      .btn {
+        background-color: $primary-color;
+        color: #ffffff;
+        border: none;
+      }
+    }
+  }
+}
+
+// TABLET
+@include tablet {
+  main {
+    img {
+      background-position: 50% 0px;
+      background-repeat: no-repeat;
+      object-fit: cover;
+      max-width: 90%;
+    }
+  }
+}
+
+// MOBILE
+@include mobile {
+  main {
+    figcaption {
+      img {
+        background-position: 50% 0px;
+      }
+    }
+  }
+}

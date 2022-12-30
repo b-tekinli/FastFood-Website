@@ -36,10 +36,46 @@ i {
   cursor: pointer;
 }
 
+.header-hamburger-btn .hamburger-btn {
+  width: 35px;
+  height: 5px;
+  background-color: #ffffff;
+  margin: 6px 0;
+  border-radius: 2px;
+}
+
+.btn {
+  padding: 15px 25px;
+}
+
+@media screen and (max-width: 991px) {
+  .header-hamburger-btn {
+    padding: 20px 5px 0px 40px;
+  }
+  .header-hamburger-btn .hamburger-btn {
+    width: 25px;
+    height: 2px;
+    background-color: #ffffff;
+    margin: 6px 0;
+    border-radius: 2px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .header-hamburger-btn {
+    padding: 15px 0px 10px 40px;
+  }
+  .header-hamburger-btn .hamburger-btn {
+    width: 20px;
+    height: 2px;
+    background-color: #ffffff;
+    margin: 6px 0;
+    border-radius: 2px;
+  }
+}
 .header--container {
   background-color: transparent;
   position: absolute;
-  width: 95%;
+  width: 97%;
 }
 .header--container .header-logo {
   margin-left: 20px;
@@ -53,6 +89,16 @@ i {
   color: #ff0000;
 }
 
+@media screen and (max-width: 991px) {
+  .header-logo figcaption img {
+    width: 70%;
+  }
+}
+@media screen and (max-width: 991px) {
+  .header-logo figcaption img {
+    width: 60%;
+  }
+}
 .nav--container ul li {
   padding-left: 50px;
 }
@@ -92,18 +138,42 @@ i {
   text-align: center;
 }
 
-@media screen and (min-width: 1024) {
+@media screen and (min-width: 1024px) {
   .desktop-hidden {
     display: none;
   }
 }
-@media screen and (max-width: 991) {
+@media screen and (max-width: 991px) {
   .tablet-hidden {
     display: none;
   }
 }
-@media screen and (max-width: 767) {
+@media screen and (max-width: 767px) {
   .mobile-hidden {
     display: none;
+  }
+}
+main .home--container img {
+  min-width: 100%;
+  background-size: cover;
+}
+main .home--container .home-content .btn {
+  background-color: #e94102;
+  color: #ffffff;
+  border: none;
+}
+
+@media screen and (max-width: 991px) {
+  main img {
+    background-position: 50% 0px;
+    background-repeat: no-repeat;
+    -o-object-fit: cover;
+       object-fit: cover;
+    max-width: 90%;
+  }
+}
+@media screen and (max-width: 767px) {
+  main figcaption img {
+    background-position: 50% 0px;
   }
 }/*# sourceMappingURL=main.css.map */

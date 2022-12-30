@@ -1,7 +1,7 @@
 .header--container {
   background-color: transparent;
   position: absolute;
-  width: 95%;
+  width: 97%;
 
   .header-logo {
     margin-left: 20px;
@@ -22,9 +22,22 @@
 
 // TABLET
 @include tablet {
+  .header-logo {
+    figcaption {
+      img {
+        width: 70%;
+      }
+    }
+  }
 }
 
 // MOBILE
-
-@include mobile {
+@include tablet {
+  .header-logo {
+    figcaption {
+      img {
+        width: 60%;
+      }
+    }
+  }
 }

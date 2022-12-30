@@ -16,9 +16,9 @@ $font-weights: (
 
 // -- RESPONSIVE
 
-$mobile: 767;
-$tablet: 991;
-$desktop: 1024;
+$mobile: 767px;
+$tablet: 991px;
+$desktop: 1024px;
 
 @mixin desktop {
   @media screen and (min-width: $desktop) {
