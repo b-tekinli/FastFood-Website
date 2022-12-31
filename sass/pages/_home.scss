@@ -30,7 +30,7 @@ main {
         font-size: 1em;
         font-weight: map-get($font-weights , "medium");
         border: none;
-        margin-top: 30px;
+        margin-top: 35px;
         &:hover {
           background-color: transparent;
           border: 2px solid $primary-hover-color;
