@@ -1,8 +1,34 @@
 section {
-    .choose-menu--container {
-        padding: 30px;
-        background-color: #f7f8fa;
+  .choose-menu--container {
+    border: 3em solid #f6f8fa;
+    height: 1514px;
+    .choose-menu-title {
+      padding-top: 6em;
+      .choose-menu-top-text {
+        background-color: $primary-color;
+        width: 180px;
+        margin: 0 auto;
+        padding: 5px 10px;
+        color: #ffffff;
+        font-weight: map-get($font-weights, "bold");
+        margin-bottom: 0.7em;
+      }
+      .choose-menu-big-text {
+        padding-bottom: 0.4em;
+        h2 {
+          font-size: 4em;
+          font-weight: map-get($font-weights, "bold");
+        }
+      }
+      .choose-menu-sub-text {
+        p {
+            font-size: 1.25em;
+            color: #333333;
+            opacity: 0.4;
+        }
+      }
     }
+  }
 }
 
 // TABLET

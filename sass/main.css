@@ -234,6 +234,30 @@ section .home--container .home-menu-items .home-menu-item .item-text .item-sub-t
 }
 
 section .choose-menu--container {
-  padding: 30px;
-  background-color: #f7f8fa;
+  border: 3em solid #f6f8fa;
+  height: 1514px;
+}
+section .choose-menu--container .choose-menu-title {
+  padding-top: 6em;
+}
+section .choose-menu--container .choose-menu-title .choose-menu-top-text {
+  background-color: #fe0000;
+  width: 180px;
+  margin: 0 auto;
+  padding: 5px 10px;
+  color: #ffffff;
+  font-weight: 700;
+  margin-bottom: 0.7em;
+}
+section .choose-menu--container .choose-menu-title .choose-menu-big-text {
+  padding-bottom: 0.4em;
+}
+section .choose-menu--container .choose-menu-title .choose-menu-big-text h2 {
+  font-size: 4em;
+  font-weight: 700;
+}
+section .choose-menu--container .choose-menu-title .choose-menu-sub-text p {
+  font-size: 1.25em;
+  color: #333333;
+  opacity: 0.4;
 }/*# sourceMappingURL=main.css.map */
