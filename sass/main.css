@@ -118,7 +118,7 @@ i {
 }
 
 .special {
-  height: 50em;
+  height: 46.3em;
   padding: 12em;
   background-image: url(/img/home-burgers.jpg);
   background-size: contain;
@@ -206,4 +206,29 @@ main .home--container .home-content .btn:hover {
   border: 2px solid #ff0000;
   transition: 0.4s ease;
   cursor: pointer;
+}
+
+section {
+  background-color: #fe0000;
+  height: 358px;
+}
+section .home-sub-menu .home-menu-items {
+  padding-top: 70px;
+}
+section .home-sub-menu .home-menu-items .home-menu-item {
+  padding-left: 20px;
+}
+section .home-sub-menu .home-menu-items .home-menu-item .menu-item-img {
+  margin-left: 55px;
+  margin-bottom: 30px;
+}
+section .home-sub-menu .home-menu-items .home-menu-item .item-text .item-title {
+  margin: 10px 0;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 1.2em;
+}
+section .home-sub-menu .home-menu-items .home-menu-item .item-text .item-sub-text {
+  color: #ff9293;
+  width: 255px;
 }/*# sourceMappingURL=main.css.map */
