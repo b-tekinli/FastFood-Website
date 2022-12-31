@@ -1,11 +1,11 @@
 section {
-  background-color: $primary-color;
-  height: 358px;
-  .home-sub-menu {
+  .home--container {
+    background-color: $primary-color;
+    height: 358px;
     .home-menu-items {
       padding-top: 70px;
       .home-menu-item {
-        padding-left: 40px;
+        padding: 0 10px;
         .menu-item-img {
           margin-left: 55px;
           margin-bottom: 30px;
