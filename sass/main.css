@@ -168,6 +168,9 @@ main .home--container .home-content {
   position: absolute;
   top: 200px;
 }
+main .home--container .home-content .home-content-text {
+  margin-left: 20px;
+}
 main .home--container .home-content .home-content-text .home-top-text {
   max-width: 200px;
   margin: 15px 0;
@@ -180,13 +183,14 @@ main .home--container .home-content .home-content-text .home-top-text p {
 }
 main .home--container .home-content .home-content-text h1 {
   font-size: 5em;
-  width: 800px;
+  width: 700px;
   color: #ffffff;
 }
 main .home--container .home-content .btn {
   background-color: #fe0000;
   color: #ffffff;
   border: none;
+  margin-top: 30px;
 }
 main .home--container .home-content .btn:hover {
   background-color: transparent;
