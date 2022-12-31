@@ -208,27 +208,32 @@ main .home--container .home-content .btn:hover {
   cursor: pointer;
 }
 
-section {
+section .home--container {
   background-color: #fe0000;
   height: 358px;
 }
-section .home-sub-menu .home-menu-items {
+section .home--container .home-menu-items {
   padding-top: 70px;
 }
-section .home-sub-menu .home-menu-items .home-menu-item {
-  padding-left: 40px;
+section .home--container .home-menu-items .home-menu-item {
+  padding: 0 10px;
 }
-section .home-sub-menu .home-menu-items .home-menu-item .menu-item-img {
+section .home--container .home-menu-items .home-menu-item .menu-item-img {
   margin-left: 55px;
   margin-bottom: 30px;
 }
-section .home-sub-menu .home-menu-items .home-menu-item .item-text .item-title {
+section .home--container .home-menu-items .home-menu-item .item-text .item-title {
   margin: 10px 0;
   color: #ffffff;
   font-weight: 700;
   font-size: 1.2em;
 }
-section .home-sub-menu .home-menu-items .home-menu-item .item-text .item-sub-text {
+section .home--container .home-menu-items .home-menu-item .item-text .item-sub-text {
   color: #ff9293;
   width: 255px;
+}
+
+section .choose-menu--container {
+  padding: 30px;
+  background-color: #f7f8fa;
 }/*# sourceMappingURL=main.css.map */
