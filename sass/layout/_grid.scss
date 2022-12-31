@@ -3,6 +3,14 @@
   margin: 0 auto;
 }
 
+.special {
+  height: 65em;
+  padding: 12em;
+  background-image: url(/img/home-burgers.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
 .flex {
   display: flex;
 }
