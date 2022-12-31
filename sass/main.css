@@ -76,6 +76,7 @@ i {
   background-color: transparent;
   position: absolute;
   width: 97%;
+  padding: 0 12em;
 }
 .header--container .header-logo {
   margin-left: 20px;
@@ -85,7 +86,7 @@ i {
   color: #ffffff;
 }
 .header--container .header-icons i:hover {
-  transition: 0.5s ease;
+  transition: 0.4s ease;
   color: #ff0000;
 }
 
@@ -106,13 +107,21 @@ i {
   color: #ffffff;
 }
 .nav--container ul li a:hover {
-  transition: 0.5s ease;
+  transition: 0.4s ease;
   color: #ff0000;
 }
 
 .container {
   width: 100%;
   margin: 0 auto;
+}
+
+.special {
+  height: 65em;
+  padding: 12em;
+  background-image: url(/img/home-burgers.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .flex {
@@ -158,12 +167,6 @@ i {
     display: none;
   }
 }
-main .home--container img {
-  position: absolute;
-  -o-object-fit: cover;
-     object-fit: cover;
-  z-index: -1;
-}
 main .home--container .home-content {
   position: absolute;
   top: 200px;
@@ -176,40 +179,30 @@ main .home--container .home-content .home-content-text .home-top-text {
   margin: 15px 0;
 }
 main .home--container .home-content .home-content-text .home-top-text p {
+  width: 260px;
   padding: 10px;
   font-weight: 700;
+  font-size: 1.3em;
   background-color: #fe0000;
   color: #ffffff;
 }
 main .home--container .home-content .home-content-text h1 {
-  font-size: 5em;
-  width: 700px;
+  font-size: 6em;
+  width: 800px;
   color: #ffffff;
+  line-height: 1;
 }
 main .home--container .home-content .btn {
   background-color: #fe0000;
   color: #ffffff;
+  font-size: 1em;
+  font-weight: 500;
   border: none;
   margin-top: 30px;
 }
 main .home--container .home-content .btn:hover {
   background-color: transparent;
   border: 2px solid #ff0000;
-  transition: 0.5s ease;
+  transition: 0.4s ease;
   cursor: pointer;
-}
-
-@media screen and (max-width: 991px) {
-  main img {
-    background-position: 50% 0px;
-    background-repeat: no-repeat;
-    -o-object-fit: cover;
-       object-fit: cover;
-    max-width: 90%;
-  }
-}
-@media screen and (max-width: 767px) {
-  main figcaption img {
-    background-position: 50% 0px;
-  }
 }/*# sourceMappingURL=main.css.map */
