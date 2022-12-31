@@ -9,6 +9,7 @@ main {
       position: absolute;
       top: 200px;
       .home-content-text {
+        margin-left: 20px;
         .home-top-text {
           max-width: 200px;
           margin: 15px 0;
@@ -21,7 +22,7 @@ main {
         }
         h1 {
           font-size: 5em;
-          width: 800px;
+          width: 700px;
           color: #ffffff;
         }
       }
@@ -29,6 +30,7 @@ main {
         background-color: $primary-color;
         color: #ffffff;
         border: none;
+        margin-top: 30px;
         &:hover {
           background-color: transparent;
           border: 2px solid $primary-hover-color;
