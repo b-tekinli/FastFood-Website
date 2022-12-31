@@ -1,0 +1,40 @@
+section {
+  background-color: $primary-color;
+  height: 358px;
+  .home-sub-menu {
+    .home-menu-items {
+      padding-top: 70px;
+      .home-menu-item {
+        padding-left: 40px;
+        .menu-item-img {
+          margin-left: 55px;
+          margin-bottom: 30px;
+        }
+        .item-text {
+          .item-title {
+            margin: 10px 0;
+            color: #ffffff;
+            font-weight: map-get($font-weights, "bold");
+            font-size: 1.2em;
+          }
+          .item-sub-text {
+            color: #ff9293;
+            width: 255px;
+          }
+        }
+      }
+    }
+  }
+}
+
+// TABLET
+@include tablet {
+  main {
+  }
+}
+
+// MOBILE
+@include mobile {
+  main {
+  }
+}
