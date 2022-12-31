@@ -1,10 +1,5 @@
 main {
   .home--container {
-    img {
-      position: absolute;
-      object-fit: cover;
-      z-index: -1;
-    }
     .home-content {
       position: absolute;
       top: 200px;
@@ -14,21 +9,26 @@ main {
           max-width: 200px;
           margin: 15px 0;
           p {
+            width: 260px;
             padding: 10px;
-            font-weight: 700;
+            font-weight: map-get($font-weights , "bold");
+            font-size: 1.3em;
             background-color: $primary-color;
             color: #ffffff;
           }
         }
         h1 {
-          font-size: 5em;
-          width: 700px;
+          font-size: 6em;
+          width: 800px;
           color: #ffffff;
+          line-height: 1;
         }
       }
       .btn {
         background-color: $primary-color;
         color: #ffffff;
+        font-size: 1em;
+        font-weight: map-get($font-weights , "medium");
         border: none;
         margin-top: 30px;
         &:hover {
@@ -45,22 +45,13 @@ main {
 // TABLET
 @include tablet {
   main {
-    img {
-      background-position: 50% 0px;
-      background-repeat: no-repeat;
-      object-fit: cover;
-      max-width: 90%;
-    }
+    
   }
 }
 
 // MOBILE
 @include mobile {
   main {
-    figcaption {
-      img {
-        background-position: 50% 0px;
-      }
-    }
+    
   }
 }
