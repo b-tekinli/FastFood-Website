@@ -256,6 +256,9 @@ section .choose-menu--container .choose-menu-title .choose-menu-big-text h2 {
   font-size: 4em;
   font-weight: 700;
 }
+section .choose-menu--container .choose-menu-title .choose-menu-sub-text {
+  margin-bottom: 3em;
+}
 section .choose-menu--container .choose-menu-title .choose-menu-sub-text p {
   font-size: 1.25em;
   color: #333333;
