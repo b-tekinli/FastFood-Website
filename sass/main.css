@@ -45,6 +45,7 @@ i {
 }
 
 .btn {
+  width: 150px;
   padding: 15px 25px;
 }
 
@@ -117,7 +118,7 @@ i {
 }
 
 .special {
-  height: 65em;
+  height: 50em;
   padding: 12em;
   background-image: url(/img/home-burgers.jpg);
   background-size: contain;
@@ -198,7 +199,7 @@ main .home--container .home-content .btn {
   font-size: 1em;
   font-weight: 500;
   border: none;
-  margin-top: 30px;
+  margin-top: 35px;
 }
 main .home--container .home-content .btn:hover {
   background-color: transparent;
