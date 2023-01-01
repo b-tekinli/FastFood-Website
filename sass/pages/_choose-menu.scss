@@ -30,7 +30,10 @@ section {
       }
     }
     .choose-menu-items {
+      flex-wrap: wrap;
       .choose-menu-item {
+        padding-left: 50px;
+        padding-bottom: 80px;
         img {
           margin-left: 20px;
           padding-bottom: 1em;
