@@ -2,8 +2,10 @@ section {
   .choose-menu--container {
     border: 3em solid #f6f8fa;
     height: 1514px;
+
     .choose-menu-title {
       padding-top: 6em;
+
       .choose-menu-top-text {
         background-color: $primary-color;
         width: 180px;
@@ -13,13 +15,16 @@ section {
         font-weight: map-get($font-weights, "bold");
         margin-bottom: 0.7em;
       }
+
       .choose-menu-big-text {
         padding-bottom: 0.4em;
+        
         h2 {
           font-size: 4em;
           font-weight: map-get($font-weights, "bold");
         }
       }
+
       .choose-menu-sub-text {
         margin-bottom: 4em;
         p {
@@ -29,21 +34,27 @@ section {
         }
       }
     }
+
     .choose-menu-items {
       flex-wrap: wrap;
+
       .choose-menu-item {
         padding-left: 50px;
         padding-bottom: 80px;
+
         img {
           margin-left: 20px;
           padding-bottom: 1em;
         }
+
         .choose-menu-item-title {
           padding-top: 1em;
+
           .choose-menu-item-toptitle {
             font-size: 1.2em;
             font-weight: map-get($font-weights, "bold");
           }
+
           .choose-menu-item-subtitle {
             font-size: 1em;
             color: #333333;
@@ -52,6 +63,24 @@ section {
             margin-top: 10px;
             line-height: 1.8;
           }
+        }
+      }
+    }
+
+    .choose-menu-btn {
+      .btn {
+        width: 227px;
+        background-color: #ffffff;
+        border: 2px solid $primary-hover-color;
+        color: $primary-hover-color;
+        font-weight: map-get($font-weights, "medium");
+        font-size: 0.9em;
+
+        &:hover {
+          background-color: $primary-hover-color;
+          color: #ffffff;
+          @include transition-ease;
+          cursor: pointer;
         }
       }
     }
