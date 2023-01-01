@@ -289,4 +289,18 @@ section .choose-menu--container .choose-menu-items .choose-menu-item .choose-men
   opacity: 0.4;
   margin-top: 10px;
   line-height: 1.8;
+}
+section .choose-menu--container .choose-menu-btn .btn {
+  width: 227px;
+  background-color: #ffffff;
+  border: 2px solid #ff0000;
+  color: #ff0000;
+  font-weight: 500;
+  font-size: 0.9em;
+}
+section .choose-menu--container .choose-menu-btn .btn:hover {
+  background-color: #ff0000;
+  color: #ffffff;
+  transition: 0.4s ease;
+  cursor: pointer;
 }/*# sourceMappingURL=main.css.map */
