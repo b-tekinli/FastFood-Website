@@ -21,11 +21,34 @@ section {
         }
       }
       .choose-menu-sub-text {
-        margin-bottom: 3em;
+        margin-bottom: 4em;
         p {
-            font-size: 1.25em;
+          font-size: 1.3em;
+          color: #333333;
+          opacity: 0.4;
+        }
+      }
+    }
+    .choose-menu-items {
+      .choose-menu-item {
+        img {
+          margin-left: 20px;
+          padding-bottom: 1em;
+        }
+        .choose-menu-item-title {
+          padding-top: 1em;
+          .choose-menu-item-toptitle {
+            font-size: 1.2em;
+            font-weight: map-get($font-weights, "bold");
+          }
+          .choose-menu-item-subtitle {
+            font-size: 1em;
             color: #333333;
+            width: 326px;
             opacity: 0.4;
+            margin-top: 10px;
+            line-height: 1.8;
+          }
         }
       }
     }
