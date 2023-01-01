@@ -257,10 +257,29 @@ section .choose-menu--container .choose-menu-title .choose-menu-big-text h2 {
   font-weight: 700;
 }
 section .choose-menu--container .choose-menu-title .choose-menu-sub-text {
-  margin-bottom: 3em;
+  margin-bottom: 4em;
 }
 section .choose-menu--container .choose-menu-title .choose-menu-sub-text p {
-  font-size: 1.25em;
+  font-size: 1.3em;
   color: #333333;
   opacity: 0.4;
+}
+section .choose-menu--container .choose-menu-items .choose-menu-item img {
+  margin-left: 20px;
+  padding-bottom: 1em;
+}
+section .choose-menu--container .choose-menu-items .choose-menu-item .choose-menu-item-title {
+  padding-top: 1em;
+}
+section .choose-menu--container .choose-menu-items .choose-menu-item .choose-menu-item-title .choose-menu-item-toptitle {
+  font-size: 1.2em;
+  font-weight: 700;
+}
+section .choose-menu--container .choose-menu-items .choose-menu-item .choose-menu-item-title .choose-menu-item-subtitle {
+  font-size: 1em;
+  color: #333333;
+  width: 326px;
+  opacity: 0.4;
+  margin-top: 10px;
+  line-height: 1.8;
 }/*# sourceMappingURL=main.css.map */
