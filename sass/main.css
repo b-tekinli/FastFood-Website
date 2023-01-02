@@ -101,9 +101,6 @@ i {
     width: 60%;
   }
 }
-.nav--container {
-  box-sizing: border-box;
-}
 .nav--container ul li {
   padding-left: 50px;
 }
@@ -276,6 +273,7 @@ section .choose-menu--container .choose-menu-items {
 section .choose-menu--container .choose-menu-items .choose-menu-item {
   padding-left: 50px;
   padding-bottom: 80px;
+  max-width: 406px;
 }
 section .choose-menu--container .choose-menu-items .choose-menu-item img {
   margin-left: 20px;
