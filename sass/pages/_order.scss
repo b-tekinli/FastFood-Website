@@ -1,5 +1,16 @@
 section {
-    .order--container {
-        
+  .order--container {
+    .order-items {
+      .order-item {
+        max-width: 808px;
+        min-height: 597px;
+        position: absolute;
+
+        img {
+          background-image: url(/img/order-1.jpg);
+          background-repeat: no-repeat;
+        }
+      }
     }
+  }
 }
