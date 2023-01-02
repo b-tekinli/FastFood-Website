@@ -17,6 +17,7 @@
 @include tablet {
   .header-hamburger-btn {
     padding: 20px 5px 0px 40px;
+
     .hamburger-btn {
       width: 25px;
       height: 2px;
@@ -31,6 +32,7 @@
 @include mobile {
   .header-hamburger-btn {
     padding: 15px 0px 10px 40px;
+    
     .hamburger-btn {
       width: 20px;
       height: 2px;
