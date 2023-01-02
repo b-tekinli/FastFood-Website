@@ -1,7 +1,6 @@
 section {
   .choose-menu--container {
     border: 3em solid #f6f8fa;
-    height: 1514px;
 
     .choose-menu-title {
       padding-top: 6em;
@@ -69,6 +68,7 @@ section {
     }
 
     .choose-menu-btn {
+      margin-bottom: 50px;
 
       .btn {
         width: 227px;
