@@ -310,4 +310,14 @@ section .choose-menu--container .choose-menu-btn .btn:hover {
   color: #ffffff;
   transition: 0.4s ease;
   cursor: pointer;
+}
+
+section .order--container .order-items .order-item {
+  max-width: 808px;
+  min-height: 597px;
+  position: absolute;
+}
+section .order--container .order-items .order-item img {
+  background-image: url(/img/order-1.jpg);
+  background-repeat: no-repeat;
 }/*# sourceMappingURL=main.css.map */
