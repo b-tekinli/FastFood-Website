@@ -1,13 +1,17 @@
 main {
   .home--container {
+
     .home-content {
       position: absolute;
       top: 200px;
+
       .home-content-text {
         margin-left: 20px;
+
         .home-top-text {
           max-width: 200px;
           margin: 15px 0;
+
           p {
             width: 260px;
             padding: 10px;
@@ -17,6 +21,7 @@ main {
             color: #ffffff;
           }
         }
+
         h1 {
           font-size: 6em;
           width: 800px;
@@ -24,6 +29,7 @@ main {
           line-height: 1;
         }
       }
+
       .btn {
         background-color: $primary-color;
         color: #ffffff;
@@ -31,6 +37,7 @@ main {
         font-weight: map-get($font-weights , "medium");
         border: none;
         margin-top: 35px;
+        
         &:hover {
           background-color: transparent;
           border: 2px solid $primary-hover-color;
