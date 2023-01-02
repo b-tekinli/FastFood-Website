@@ -235,7 +235,6 @@ section .home--container .home-menu-items .home-menu-item .item-text .item-sub-t
 
 section .choose-menu--container {
   border: 3em solid #f6f8fa;
-  height: 1514px;
 }
 section .choose-menu--container .choose-menu-title {
   padding-top: 6em;
@@ -289,6 +288,9 @@ section .choose-menu--container .choose-menu-items .choose-menu-item .choose-men
   opacity: 0.4;
   margin-top: 10px;
   line-height: 1.8;
+}
+section .choose-menu--container .choose-menu-btn {
+  margin-bottom: 50px;
 }
 section .choose-menu--container .choose-menu-btn .btn {
   width: 227px;
