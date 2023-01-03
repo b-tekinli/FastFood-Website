@@ -37,9 +37,12 @@ section {
 
     .choose-menu-items {
       flex-wrap: wrap;
+      margin: auto;
+      min-height: 600px;
+      max-width: 1500px;
 
       .choose-menu-item {
-        padding-left: 50px;
+        padding: 0 3em;
         padding-bottom: 80px;
         max-width: 406px;
 
