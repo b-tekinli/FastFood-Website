@@ -10,6 +10,30 @@ section {
           background-image: url(/img/order-1.jpg);
           background-repeat: no-repeat;
         }
+
+        .order-title {
+          
+          .order-new-text {
+            background-color: $primary-color;
+            max-width: 58px;
+            height: 25px;
+            padding: 0 10px;
+            color: #ffffff;
+            font-weight: map-get($font-weights, bold);
+          }
+        }
+
+        .order-food-info {
+
+        }
+
+        .order-product-price {
+
+        }
+        
+        .order-button {
+
+        }
       }
     }
   }
