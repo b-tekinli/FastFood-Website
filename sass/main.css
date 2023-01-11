@@ -324,4 +324,12 @@ section .order--container .order-items .order-item {
 section .order--container .order-items .order-item img {
   background-image: url(/img/order-1.jpg);
   background-repeat: no-repeat;
+}
+section .order--container .order-items .order-item .order-title .order-new-text {
+  background-color: #fe0000;
+  max-width: 58px;
+  height: 25px;
+  padding: 0 10px;
+  color: #ffffff;
+  font-weight: 700;
 }/*# sourceMappingURL=main.css.map */
